@@ -1,0 +1,45 @@
+/*style the entire page*/
+body{
+    font-family: Arial, Helvetica, sans-serif; /*font style*/
+    padding: 20px; /*space around content*/
+    background-color: bisque; /*sets the bg color*/
+}
+/*as list is a class we are using . */
+.List{
+    background-color: burlywood; 
+    text-align: center; /*centers the content*/
+    padding: 20px;  /*space inside the box*/
+    border-radius: 5px; /*used to make the corners round*/
+    max-width: 500px;  /*limits the width*/
+    margin: auto; /*centers the box on page*/
+}
+
+h1{
+    text-align: center; /*centers the heading*/
+    color: black;  /*color of the heading*/
+}
+input{
+    padding: 10px; /*space inside the input box*/
+    width: 70%; /*this takes 70% of the conatiner width*/
+    margin-right: 10px; /*space to right*/
+    border-color: aquamarine;  /*border color of the box*/
+    border-radius: 5px;  /*rounded corner for box*/
+}
+button{
+    padding: 10px; /*padding fo rthe button*/
+    background-color: aquamarine;  /*color of the button*/
+    border-color: aquamarine; /*color of the border of button*/
+    border: none;  /*removes default border*/
+    cursor: pointer;  /*changes the cursor into pointer*/
+    border-radius: 5px;  /*rounds the button*/
+}
+button:hover{
+    background-color: aqua; /*changes bg color when cursor is moved on th button*/
+}
+table{
+    width: 100%;  /*table takes full width*/
+}
+th, td {
+    padding: 10px; /*paddind inside the cells of table*/
+    text-align: center;  /*text will be in center of cells*/
+}
